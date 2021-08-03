@@ -1,0 +1,23 @@
+/*class only start with 'd'*/
+div[class^="d"]{
+    border: 1px solid black;
+    margin-top: 3%;
+}
+
+.d-lg-block{
+    /*border: 1px solid black;
+    margin-top: 3%;*/
+    color: red;
+}
+
+.d-lg-none{
+    /*border: 1px solid black;
+    margin-top: 3%;*/
+    color: blue;
+}
+/*any class that contains 'd-md-none'*/
+div[class~=d-md-none]{
+/*    border: 1px solid black;
+    margin-top: 3%;*/
+    color: green;
+}
